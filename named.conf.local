@@ -1,6 +1,6 @@
-zone "okd.local" {
+zone "dmi3lab.ml" {
     type master;
-    file "/etc/named/zones/db.okd.local"; # zone file path
+    file "/etc/named/zones/db.dmi3lab.ml"; # zone file path
 };
 
 zone "200.168.192.in-addr.arpa" {

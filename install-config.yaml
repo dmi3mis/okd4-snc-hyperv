@@ -1,12 +1,12 @@
 apiVersion: v1
-baseDomain: okd.local
+baseDomain: dmi3lab.ml
 metadata:
   name: lab
 
 compute:
 - hyperthreading: Enabled
   name: worker
-  replicas: 0
+  replicas: 2
 
 controlPlane:
   hyperthreading: Enabled
@@ -26,5 +26,5 @@ platform:
 
 fips: false
 
-pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
-sshKey: 'ssh-ed25519 AAAA...'   
+pullSecret: '{"auths":{"cloud.openshift.com":{"auth"}}}'
+sshKey: 'ssh-rsa AAA'   
