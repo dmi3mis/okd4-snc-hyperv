@@ -14,7 +14,7 @@ $TTL    604800
 okd4-services.dmi3lab.ml.                       IN      A     192.168.200.10
 
 ; OpenShift Container Platform Cluster - A records
-okd4-bootstrap.lab.dmi3lab.ml.                  IN      A     192.168.60.242
+okd4-bootstrap.lab.dmi3lab.ml.                  IN      A     192.168.200.12
 okd4-control-plane-1.lab.dmi3lab.ml.            IN      A     192.168.200.11
 okd4-worker-node-1.lab.dmi3lab.ml.              IN      A     192.168.200.21
 okd4-worker-node-2.lab.dmi3lab.ml.              IN      A     192.168.200.22
